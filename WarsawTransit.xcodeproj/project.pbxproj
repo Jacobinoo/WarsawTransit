@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C36F4982C1F5C780080F698 /* LiveVehicleAnnotationContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C36F4972C1F5C780080F698 /* LiveVehicleAnnotationContent.swift */; };
+		8C36F49A2C1F60EC0080F698 /* VehicleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C36F4992C1F60EC0080F698 /* VehicleType.swift */; };
+		8C36F49F2C1F6B890080F698 /* UILiveBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C36F49E2C1F6B890080F698 /* UILiveBus.swift */; };
+		8C36F4A12C1F6BA00080F698 /* UILiveTram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C36F4A02C1F6BA00080F698 /* UILiveTram.swift */; };
+		8C36F4A32C1F6BC70080F698 /* UILiveSubway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C36F4A22C1F6BC70080F698 /* UILiveSubway.swift */; };
+		8C36F4A52C1F6CB10080F698 /* SubwayLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C36F4A42C1F6CB10080F698 /* SubwayLine.swift */; };
+		8C36F4A72C1F6DFC0080F698 /* UILiveTrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C36F4A62C1F6DFC0080F698 /* UILiveTrain.swift */; };
+		8C36F4A92C1F6E4D0080F698 /* UILiveVehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C36F4A82C1F6E4D0080F698 /* UILiveVehicle.swift */; };
 		8CFCDE8A2C14A49900F934B0 /* WarsawTransitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFCDE892C14A49900F934B0 /* WarsawTransitApp.swift */; };
 		8CFCDE8C2C14A49900F934B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFCDE8B2C14A49900F934B0 /* ContentView.swift */; };
 		8CFCDE8E2C14A49A00F934B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CFCDE8D2C14A49A00F934B0 /* Assets.xcassets */; };
@@ -14,6 +22,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C36F4972C1F5C780080F698 /* LiveVehicleAnnotationContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveVehicleAnnotationContent.swift; sourceTree = "<group>"; };
+		8C36F4992C1F60EC0080F698 /* VehicleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleType.swift; sourceTree = "<group>"; };
+		8C36F49E2C1F6B890080F698 /* UILiveBus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILiveBus.swift; sourceTree = "<group>"; };
+		8C36F4A02C1F6BA00080F698 /* UILiveTram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILiveTram.swift; sourceTree = "<group>"; };
+		8C36F4A22C1F6BC70080F698 /* UILiveSubway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILiveSubway.swift; sourceTree = "<group>"; };
+		8C36F4A42C1F6CB10080F698 /* SubwayLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubwayLine.swift; sourceTree = "<group>"; };
+		8C36F4A62C1F6DFC0080F698 /* UILiveTrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILiveTrain.swift; sourceTree = "<group>"; };
+		8C36F4A82C1F6E4D0080F698 /* UILiveVehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILiveVehicle.swift; sourceTree = "<group>"; };
 		8CFCDE862C14A49900F934B0 /* WarsawTransit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarsawTransit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFCDE892C14A49900F934B0 /* WarsawTransitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarsawTransitApp.swift; sourceTree = "<group>"; };
 		8CFCDE8B2C14A49900F934B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +49,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C36F49B2C1F60F00080F698 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				8C36F4992C1F60EC0080F698 /* VehicleType.swift */,
+				8C36F4A42C1F6CB10080F698 /* SubwayLine.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		8C36F49C2C1F6B2F0080F698 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				8C36F4A82C1F6E4D0080F698 /* UILiveVehicle.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		8C36F49D2C1F6B790080F698 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8C36F49E2C1F6B890080F698 /* UILiveBus.swift */,
+				8C36F4A02C1F6BA00080F698 /* UILiveTram.swift */,
+				8C36F4A22C1F6BC70080F698 /* UILiveSubway.swift */,
+				8C36F4A62C1F6DFC0080F698 /* UILiveTrain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		8CFCDE7D2C14A49900F934B0 = {
 			isa = PBXGroup;
 			children = (
@@ -52,11 +96,15 @@
 		8CFCDE882C14A49900F934B0 /* WarsawTransit */ = {
 			isa = PBXGroup;
 			children = (
+				8C36F49D2C1F6B790080F698 /* Model */,
+				8C36F49C2C1F6B2F0080F698 /* Protocol */,
+				8C36F49B2C1F60F00080F698 /* Enum */,
 				8CFCDE892C14A49900F934B0 /* WarsawTransitApp.swift */,
 				8CFCDE8B2C14A49900F934B0 /* ContentView.swift */,
 				8CFCDE8D2C14A49A00F934B0 /* Assets.xcassets */,
 				8CFCDE8F2C14A49A00F934B0 /* WarsawTransit.entitlements */,
 				8CFCDE902C14A49A00F934B0 /* Preview Content */,
+				8C36F4972C1F5C780080F698 /* LiveVehicleAnnotationContent.swift */,
 			);
 			path = WarsawTransit;
 			sourceTree = "<group>";
@@ -140,7 +188,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CFCDE8C2C14A49900F934B0 /* ContentView.swift in Sources */,
+				8C36F4A12C1F6BA00080F698 /* UILiveTram.swift in Sources */,
+				8C36F4A32C1F6BC70080F698 /* UILiveSubway.swift in Sources */,
+				8C36F49A2C1F60EC0080F698 /* VehicleType.swift in Sources */,
 				8CFCDE8A2C14A49900F934B0 /* WarsawTransitApp.swift in Sources */,
+				8C36F4A72C1F6DFC0080F698 /* UILiveTrain.swift in Sources */,
+				8C36F4A92C1F6E4D0080F698 /* UILiveVehicle.swift in Sources */,
+				8C36F49F2C1F6B890080F698 /* UILiveBus.swift in Sources */,
+				8C36F4A52C1F6CB10080F698 /* SubwayLine.swift in Sources */,
+				8C36F4982C1F5C780080F698 /* LiveVehicleAnnotationContent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,17 +330,20 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Warsaw Transit";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
@@ -292,7 +351,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kuba.WarsawTransit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,17 +372,20 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Warsaw Transit";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
@@ -330,7 +393,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kuba.WarsawTransit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
